@@ -1,5 +1,7 @@
 <?php
+
 ?>
+
 <!doctype html>
 <html lang="nl">
 <head>
@@ -15,6 +17,7 @@
 <header>
     <nav></nav>
     <h1>Infopagina</h1>
+    <img src="images/placeholderFoto.png" alt="placeholder">
 </header>
 
 <main>
