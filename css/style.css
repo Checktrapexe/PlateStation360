@@ -47,6 +47,15 @@ nav {
     border-radius: 15%;
 }
 
+.navLinks a:hover {
+
+    color: white;
+
+    background-color: #f06449;
+
+}
+
+
 footer {
     display: flex;
     flex-direction: row;
