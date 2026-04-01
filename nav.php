@@ -4,7 +4,7 @@
 
 <div>
     <a href="index.php">Home</a>
-    <a href="">De PlateStation</a>
+    <a href="infopagina/index.php">De PlateStation</a>
     <a href="">Over ons</a>
     <a href="">Contact</a>
 </div>
