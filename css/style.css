@@ -4,14 +4,17 @@ p {
 
 h1 {
     font-size: 2.2rem;
+    font-family: "ITC Eras Demi";
 }
 
 h2 {
     font-size: 1.7rem;
+    font-family: "ITC Eras Demi";
 }
 
 h3 {
     font-size: 1.3rem;
+    font-family: "ITC Eras Demi";
 }
 
 a {
@@ -92,7 +95,16 @@ main section {
 article {
     max-width: 25vw;
     background-color: #49475b;
-    padding: 1vh 1vw;
+    padding: 1vh 1vw 4vh;
+}
+
+article a {
+    text-decoration: none;
+    padding: 10px 12px;
+    color: #12171F;
+    font-size: 1.3rem;
+    background-color: #799496;
+    border-radius: 15%;
 }
 
 
@@ -105,7 +117,7 @@ header {
     display: flex;
     flex-direction: row;
     height: 60vh;
-    margin-bottom: 2vh;
+    margin: 2vh;
 }
 
 header img {
@@ -122,4 +134,8 @@ header div {
 
 .headerText {
     flex: 1
+}
+
+header h1 {
+    font-size: 4.2rem;
 }
