@@ -1,3 +1,17 @@
-h1 {
-    color: cadetblue;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.product-section {
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    align-items: flex-start;
+}
+
+.product-image img {
+    width: 380px;
+    display: block;
 }
