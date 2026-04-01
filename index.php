@@ -12,7 +12,11 @@
 <nav>
     <?php require_once "nav.php"; ?>
 </nav>
-<main></main>
-<footer></footer>
+<main>
+
+</main>
+<footer>
+    <?php require_once "footer.php"; ?>
+</footer>
 </body>
 </html>
