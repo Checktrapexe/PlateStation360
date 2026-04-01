@@ -79,3 +79,47 @@ footer {
     padding: 6vh 1vw;
     color: #12171F;
 }
+
+main section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+    padding-bottom: 5vh;
+}
+
+
+article {
+    max-width: 25vw;
+    background-color: #49475b;
+    padding: 1vh 1vw;
+}
+
+
+article img {
+    width: 25vw;
+    height: 20vh;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    margin-bottom: 2vh;
+}
+
+header img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: fill;
+}
+
+header div {
+    flex: 2;
+    gap: 2vw;
+}
+
+.headerText {
+    flex: 1
+}
