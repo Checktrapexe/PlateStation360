@@ -11,6 +11,102 @@ body {
     line-height: 1.6;
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 1.1rem;
+    font-family: Arial;
+}
+
+h1 {
+    font-size: 2.2rem;
+    font-family: "ITC Eras Demi";
+}
+
+h2 {
+    font-size: 1.7rem;
+    font-family: "ITC Eras Demi";
+}
+
+h3 {
+    font-size: 1.3rem;
+    font-family: "ITC Eras Demi";
+}
+
+a {
+    color: white;
+    font-family: "Alphazet";
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    background-color: #ffffff;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0vh 7vw;
+    background-color: #49475b;
+    align-items: center;
+}
+
+.logoContainer img {
+    width: 10vw;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+.navLinks a {
+    text-decoration: none;
+    padding: 10px 12px;
+    color: #12171F;
+    font-size: 1.3rem;
+    background-color: #799496;
+    border-radius: 15%;
+}
+
+.navLinks a:hover {
+
+    color: white;
+
+    background-color: #f06449;
+
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2vh 10vw;
+    background-color: #49475b;
+    align-items: center;
+}
+
+.footerLogoContainer p {
+    font-size: 0.8rem;
+}
+
+.footerLogoContainer img {
+    width: 10vw;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.footerLinks a {
+    font-size: 0.8rem;
+    padding: 6vh 1vw;
+    color: #12171F;
+}
+
+/* base code */
+
 .container {
     width: 90%;
     max-width: 1200px;
@@ -236,36 +332,6 @@ body {
 }
 
 /* FOOTER */
-.footer {
-    background-color: #7fb5ae;
-    color: white;
-    padding: 24px 0;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.footer-left,
-.footer-center,
-.footer-right {
-    font-size: 1rem;
-    font-weight: 600;
-}
-
-.footer-right {
-    display: flex;
-    gap: 20px;
-}
-
-.footer-right a {
-    color: white;
-    text-decoration: none;
-}
 
 /* RESPONSIVE */
 @media (max-width: 992px) {

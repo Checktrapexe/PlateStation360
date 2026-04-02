@@ -14,7 +14,7 @@
 </head>
 <body>
 <nav>
-    <?php require_once "nav.php"; ?>
+    <?php require_once "pre-set/nav.php"; ?>
 </nav>
 <header>
     <div class="headerText">
@@ -49,7 +49,7 @@
     </section>
 </main>
 <footer>
-    <?php require_once "footer.php"; ?>
+    <?php require_once "pre-set/footer.php"; ?>
 </footer>
 </body>
 </html>

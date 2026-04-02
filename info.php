@@ -9,20 +9,22 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/infostyle.css">
+    <style>
+        @import url(https://db.onlinewebfonts.com/c/457055c70a9c98aa64002f05d6652edc?family=ITC+Eras+Demi);
+        @import url(https://www.dropbox.com/scl/fi/ctijlfue8498st43rt2sq/Alphazet-SemiBold.ttf?rlkey=b8kbprn901h9ezlhh02zlwdr7&st=n1sr65w7&dl=1);
+    </style>
     <title>Infopagina</title>
 </head>
 <body>
 <nav>
-    <a href="info.php">Home</a>
-    <a href="#">Info</a>
-    <a href="#">Over ons</a>
+    <?php require_once "pre-set/nav.php"; ?>
 </nav>
 
 <header>
     <section class="product-section">
         <div class="product-image">
-            <img src="images/placeholderFoto.png" alt="Productfoto">
+            <img src="media/images/placeholderFoto.png" alt="Productfoto">
         </div>
         <div class="product-info">
             <h1>Platestation 360</h1>
@@ -36,7 +38,7 @@
     <div class="stappen">
         <div class="stap">
             <div class="stap-foto" id="stap-foto-1">
-                <img src="images/placeholderFoto.png" alt="Stap 1">
+                <img src="media/images/placeholderFoto.png" alt="Stap 1">
             </div>
             <div class="stap-uitleg">
                 <h3>Stap 1:<br>Uitleg</h3>
@@ -45,7 +47,7 @@
 
         <div class="stap">
             <div class="stap-foto" id="stap-foto-2">
-                <img src="images/placeholderFoto.png" alt="Stap 2">
+                <img src="media/images/placeholderFoto.png" alt="Stap 2">
             </div>
             <div class="stap-uitleg">
                 <h3>Stap 2:<br>Uitleg</h3>
@@ -54,7 +56,7 @@
 
         <div class="stap">
             <div class="stap-foto" id="stap-foto-3">
-                <img src="images/placeholderFoto.png" alt="Stap 3">
+                <img src="media/images/placeholderFoto.png" alt="Stap 3">
             </div>
             <div class="stap-uitleg">
                 <h3>Stap 3:<br>Uitleg</h3>
@@ -64,11 +66,7 @@
 </section>
 
 <footer>
-    <nav>
-        <a href="index.php">Home</a>
-        <a href="#">Over ons</a>
-    </nav>
-    <div class="footer-logo"></div>
+    <?php require_once "pre-set/footer.php"; ?>
 </footer>
 </body>
 </html>
