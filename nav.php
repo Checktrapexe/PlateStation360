@@ -6,6 +6,6 @@
 <div class="navLinks">
     <a href="index.php">Home</a>
     <a href="infopagina/info.php">PS 360</a>
-    <a href="">Over ons</a>
+    <a href="overons.php">Over ons</a>
     <a href="">Contact</a>
 </div>
