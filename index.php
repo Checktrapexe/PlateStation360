@@ -14,7 +14,7 @@
 </head>
 <body>
 <nav>
-    <?php require_once "../nav.php"; ?>
+    <?php require_once "nav.php"; ?>
 </nav>
 <header>
     <div class="headerText">
