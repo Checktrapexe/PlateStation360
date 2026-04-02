@@ -6,6 +6,7 @@
 
 p {
     font-size: 1.1rem;
+    font-family: Arial;
 }
 
 h1 {
@@ -39,7 +40,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     padding: 0vh 7vw;
-    background-color: #799496;
+    background-color: #49475b;
     align-items: center;
 }
 
@@ -54,7 +55,7 @@ nav {
     padding: 10px 12px;
     color: #12171F;
     font-size: 1.3rem;
-    background-color: #49475b;
+    background-color: #799496;
     border-radius: 15%;
 }
 
@@ -72,7 +73,7 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     padding: 2vh 10vw;
-    background-color: #799496;
+    background-color: #49475b;
     align-items: center;
 }
 
@@ -91,6 +92,11 @@ footer {
     color: #12171F;
 }
 
+main {
+    padding: 2vw;
+}
+
+
 main section {
     display: flex;
     flex-direction: row;
@@ -104,6 +110,7 @@ article {
     max-width: 25vw;
     background-color: #49475b;
     padding: 1vh 1vw 4vh;
+    min-height: 40vh;
 }
 
 article a {
@@ -113,6 +120,12 @@ article a {
     font-size: 1.3rem;
     background-color: #799496;
     border-radius: 15%;
+
+}
+
+article a:hover {
+    color: white;
+    background-color: #f06449;
 }
 
 
@@ -125,7 +138,8 @@ header {
     display: flex;
     flex-direction: row;
     height: 60vh;
-    margin: 2vh;
+
+    background-color: #fff9f7;
 }
 
 header img {
@@ -137,7 +151,8 @@ header img {
 
 header div {
     flex: 2;
-    gap: 2vw;
+    margin: 2vw;
+
 }
 
 .headerText {
