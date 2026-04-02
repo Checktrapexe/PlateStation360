@@ -4,23 +4,14 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>PlateStation360 - Over Ons</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="css/styleoverons.css"/>
 </head>
 <body>
-<header class="navbar">
-    <div class="logo">
-        <div class="logo-circle"></div>
-        <span>PlateStation360</span>
-    </div>
 
-    <nav>
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Over Ons</a></li>
-            <li><a href="#">Info</a></li>
-        </ul>
-    </nav>
-</header>
+<nav>
+    <?php require_once "pre-set/nav.php"; ?>
+</nav>
+
 
 <main>
     <section class="hero container">
@@ -113,18 +104,8 @@
 </main>
 
 <footer class="footer">
-    <div class="container footer-content">
-        <div class="footer-left">PlateStation360</div>
-        <div class="footer-center">
-            © 2026 Platestation360 Project Team. Alle rechten voorbehouden.
-        </div>
-        <div class="footer-right">
-            <a href="#">Privacybeleid</a>
-            <a href="#">Gebruiksvoorwaarden</a>
-        </div>
-    </div>
+    <?php require_once "pre-set/footer.php"; ?>
 </footer>
 
-<script src="script.js"></script>
 </body>
 </html>
