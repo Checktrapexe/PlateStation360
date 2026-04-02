@@ -37,7 +37,6 @@
     <section class="info-sections container">
         <div class="info-block">
             <div class="section-title">
-                <span class="icon purple">📝</span>
                 <h2>De Opdracht</h2>
             </div>
             <div class="line blue"></div>
@@ -50,7 +49,6 @@
 
         <div class="info-block">
             <div class="section-title">
-                <span class="icon blue-icon">♿</span>
                 <h2>Doelgroep &amp; Context</h2>
             </div>
             <div class="line blue"></div>
@@ -73,7 +71,6 @@
         <div class="container">
             <div class="team-header">
                 <div class="section-title">
-                    <span class="icon team">👥</span>
                     <h2>Ons Team</h2>
                 </div>
                 <p>Maak kennis met de gezichten achter PlateStation360.</p>
