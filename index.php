@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <style>
         @import url(https://db.onlinewebfonts.com/c/457055c70a9c98aa64002f05d6652edc?family=ITC+Eras+Demi);
+        @import url(https://www.dropbox.com/scl/fi/ctijlfue8498st43rt2sq/Alphazet-SemiBold.ttf?rlkey=b8kbprn901h9ezlhh02zlwdr7&st=n1sr65w7&dl=1);
     </style>
     <title>Document</title>
 </head>
