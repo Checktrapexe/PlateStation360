@@ -14,12 +14,12 @@
 </head>
 <body>
 <nav>
-    <?php require_once "nav.php"; ?>
+    <?php require_once "../nav.php"; ?>
 </nav>
 <header>
     <div class="headerText">
-        <h1>Het beste toegankelijke bord ter wereld</h1>
-        <p>De PlateStation 360® is een gebruiksvriendelijke, draaibaar bord, ontworpen om toegankelijk te zijn.</p>
+        <h1>Platestation360</h1>
+        <p>informatie over de platestation</p>
     </div>
     <div>
         <img src="media/images/placeholderFoto.png" alt="Placeholder image">

@@ -13,57 +13,62 @@
     <title>Infopagina</title>
 </head>
 <body>
+<nav>
+    <a href="info.php">Home</a>
+    <a href="#">Info</a>
+    <a href="#">Over ons</a>
+</nav>
 
 <header>
-    <nav></nav>
+    <section class="product-section">
+        <div class="product-image">
+            <img src="images/placeholderFoto.png" alt="Productfoto">
+        </div>
+        <div class="product-info">
+            <h1>Platestation 360</h1>
+            <p>informatie over het product</p>
+        </div>
+    </section>
 </header>
-
-<section class="product-section">
-    <div class="product-image">
-        <img src="images/placeholderFoto.png" alt="Productfoto">
-    </div>
-    <div class="product-info">
-        <h1>Platestation 360</h1>
-        <p>informatie over het product</p>
-    </div>
-</section>
 
 <section class="gebruikswijze-section">
     <h2>Gebruikswijze</h2>
     <div class="stappen">
         <div class="stap">
-            <div class="stap-foto" id="stap-foto-1"></div>
+            <div class="stap-foto" id="stap-foto-1">
+                <img src="images/placeholderFoto.png" alt="Stap 1">
+            </div>
             <div class="stap-uitleg">
                 <h3>Stap 1:<br>Uitleg</h3>
-                <p></p>
             </div>
         </div>
 
         <div class="stap">
-            <div class="stap-foto" id="stap-foto-2"></div>
+            <div class="stap-foto" id="stap-foto-2">
+                <img src="images/placeholderFoto.png" alt="Stap 2">
+            </div>
             <div class="stap-uitleg">
                 <h3>Stap 2:<br>Uitleg</h3>
-                <p></p>
             </div>
         </div>
 
         <div class="stap">
-            <div class="stap-foto" id="stap-foto-3"></div>
+            <div class="stap-foto" id="stap-foto-3">
+                <img src="images/placeholderFoto.png" alt="Stap 3">
+            </div>
             <div class="stap-uitleg">
                 <h3>Stap 3:<br>Uitleg</h3>
-                <p></p>
             </div>
         </div>
     </div>
 </section>
 
 <footer>
-    <div class="footer-links">
-        <a href="#">Home</a>
+    <nav>
+        <a href="index.php">Home</a>
         <a href="#">Over ons</a>
-    </div>
+    </nav>
     <div class="footer-logo"></div>
 </footer>
-
 </body>
 </html>

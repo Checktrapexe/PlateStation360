@@ -8,4 +8,5 @@
     <a href="">PS 360</a>
     <a href="">Over ons</a>
     <a href="">Contact</a>
+    <a href="infopagina/info.php">Informatie</a>
 </div>
