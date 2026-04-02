@@ -14,7 +14,7 @@
 </head>
 <body>
 <nav>
-    <a href="info.php">Home</a>
+    <a href="#">Home</a>
     <a href="#">Info</a>
     <a href="#">Over ons</a>
 </nav>

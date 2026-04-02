@@ -14,14 +14,6 @@ nav {
     color: white;
 }
 
-nav::before {
-    content: '';
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background: white;
-    flex-shrink: 0;
-}
 
 nav a {
     color: white;
