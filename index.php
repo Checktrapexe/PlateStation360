@@ -10,7 +10,7 @@
         @import url(https://db.onlinewebfonts.com/c/457055c70a9c98aa64002f05d6652edc?family=ITC+Eras+Demi);
         @import url(https://www.dropbox.com/scl/fi/ctijlfue8498st43rt2sq/Alphazet-SemiBold.ttf?rlkey=b8kbprn901h9ezlhh02zlwdr7&st=n1sr65w7&dl=1);
     </style>
-    <title>Document</title>
+    <title>Home Pagina</title>
 </head>
 <body>
 <nav>
@@ -22,27 +22,27 @@
         <p>De PlateStation 360® is een gebruiksvriendelijke, draaibaar bord, ontworpen om toegankelijk te zijn.</p>
     </div>
     <div>
-        <img src="media/images/Placeholder.png" alt="Placeholder image">
+        <img src="media/images/placeholderFoto.png" alt="Placeholder image">
     </div>
 </header>
 <main>
 
     <section>
         <article>
-            <img src="media/images/Placeholder.png" alt="Placeholder image">
-            <h2>Placeholder</h2>
+            <img src="media/images/placeholderFoto.png" alt="Placeholder image">
+            <h2>De PlateStation 360</h2>
+            <p> Lorem Ipsum</p>
+            <a href="">Meer info</a>
+        </article>
+        <article>
+            <img src="media/images/placeholderFoto.png" alt="Placeholder image">
+            <h2>Over ons</h2>
             <p>Lorem Ipsum</p>
             <a href="">Meer info</a>
         </article>
         <article>
-            <img src="media/images/Placeholder.png" alt="Placeholder image">
-            <h2>Placeholder</h2>
-            <p>Lorem Ipsum</p>
-            <a href="">Meer info</a>
-        </article>
-        <article>
-            <img src="media/images/Placeholder.png" alt="Placeholder image">
-            <h2>Placeholder</h2>
+            <img src="media/images/placeholderFoto.png" alt="Placeholder image">
+            <h2>Contact</h2>
             <p>Lorem Ipsum</p>
             <a href="">Meer info</a>
         </article>
