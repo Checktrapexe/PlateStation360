@@ -6,8 +6,7 @@
     <title>PlateStation360 - Over Ons</title>
     <link rel="stylesheet" href="css/styleoverons.css"/>
     <style>
-        @import url(https://db.onlinewebfonts.com/c/457055c70a9c98aa64002f05d6652edc?family=ITC+Eras+Demi);
-        @import url(https://www.dropbox.com/scl/fi/ctijlfue8498st43rt2sq/Alphazet-SemiBold.ttf?rlkey=b8kbprn901h9ezlhh02zlwdr7&st=n1sr65w7&dl=1);
+        @import url('https://db.onlinewebfonts.com/c/457055c70a9c98aa64002f05d6652edc?family=ITC+Eras+Demi');
     </style>
 </head>
 <body>
@@ -15,7 +14,6 @@
 <nav>
     <?php require_once "pre-set/nav.php"; ?>
 </nav>
-
 
 <main>
     <section class="hero container">
@@ -31,7 +29,7 @@
 
         <div class="hero-image">
             <div class="image-placeholder">
-                <span>Productfoto</span>
+                <img src="media/images/placeholderFoto.png" alt="Placeholder image">
             </div>
         </div>
     </section>
