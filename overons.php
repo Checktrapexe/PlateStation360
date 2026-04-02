@@ -20,7 +20,7 @@
         <div class="hero-text">
             <h1>Over Ons</h1>
             <p>
-                Wij zijn Eren, Chris, Efe en Joey. Voor een schoolopdracht hebben wij
+                Wij zijn Chris, Efe, Eren en Joey. Voor een schoolopdracht hebben wij
                 de PlateStation360 ontwikkeld. Met dit project richten wij ons op mensen
                 met een motorische beperking in de context van uit eten gaan. Ons doel
                 is om eten toegankelijker, comfortabeler en zelfstandiger te maken.
@@ -80,17 +80,17 @@
             <div class="team-grid">
                 <div class="team-card">
                     <div class="avatar"></div>
-                    <h3>Eren</h3>
-                </div>
-
-                <div class="team-card">
-                    <div class="avatar"></div>
                     <h3>Chris</h3>
                 </div>
 
                 <div class="team-card">
                     <div class="avatar"></div>
                     <h3>Efe</h3>
+                </div>
+
+                <div class="team-card">
+                    <div class="avatar"></div>
+                    <h3>Eren</h3>
                 </div>
 
                 <div class="team-card">
