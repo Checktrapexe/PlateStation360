@@ -4,18 +4,23 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>PlateStation360 - Over Ons</title>
-    <link rel="stylesheet" href="css/styleoverons.css"/>
-    <style>
-        @import url(https://db.onlinewebfonts.com/c/457055c70a9c98aa64002f05d6652edc?family=ITC+Eras+Demi);
-        @import url(https://www.dropbox.com/scl/fi/ctijlfue8498st43rt2sq/Alphazet-SemiBold.ttf?rlkey=b8kbprn901h9ezlhh02zlwdr7&st=n1sr65w7&dl=1);
-    </style>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+<header class="navbar">
+    <div class="logo">
+        <div class="logo-circle"></div>
+        <span>PlateStation360</span>
+    </div>
 
-<nav>
-    <?php require_once "pre-set/nav.php"; ?>
-</nav>
-
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Over Ons</a></li>
+            <li><a href="#">Info</a></li>
+        </ul>
+    </nav>
+</header>
 
 <main>
     <section class="hero container">
@@ -107,8 +112,17 @@
     </section>
 </main>
 
-<footer>
-    <?php require_once "pre-set/footer.php"; ?>
+<footer class="footer">
+    <div class="container footer-content">
+        <div class="footer-left">PlateStation360</div>
+        <div class="footer-center">
+            © 2026 Platestation360 Project Team. Alle rechten voorbehouden.
+        </div>
+        <div class="footer-right">
+            <a href="#">Privacybeleid</a>
+            <a href="#">Gebruiksvoorwaarden</a>
+        </div>
+    </div>
 </footer>
 
 <script src="script.js"></script>
