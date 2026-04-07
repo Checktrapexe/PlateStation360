@@ -17,36 +17,11 @@
     <?php require_once "pre-set/nav.php"; ?>
 </nav>
 <header>
-    <div class="headerText">
-        <h1>Platestation360</h1>
-        <p>informatie over de platestation</p>
-    </div>
-    <div>
-        <img src="media/images/placeholderFoto.png" alt="Placeholder image">
-    </div>
+
 </header>
+
 <main>
 
-    <section>
-        <article>
-            <img src="media/images/placeholderFoto.png" alt="Placeholder image">
-            <h2>De PlateStation 360</h2>
-            <p> Lorem Ipsum</p>
-            <a href="">Meer info</a>
-        </article>
-        <article>
-            <img src="media/images/placeholderFoto.png" alt="Placeholder image">
-            <h2>Over ons</h2>
-            <p>Lorem Ipsum</p>
-            <a href="">Meer info</a>
-        </article>
-        <article>
-            <img src="media/images/placeholderFoto.png" alt="Placeholder image">
-            <h2>Contact</h2>
-            <p>Lorem Ipsum</p>
-            <a href="">Meer info</a>
-        </article>
-    </section>
 </main>
 <footer>
     <?php require_once "pre-set/footer.php"; ?>
