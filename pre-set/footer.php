@@ -14,9 +14,9 @@
     </div>
     <div>
         <h1>Over Ons</h1>
-        <a href="">Het team</a>
-        <a href="">Ons Doel</a>
-        <a href="">Garantie</a>
+        <a href="./overons.php">Het team</a>
+        <a href="./overons.php">Ons Doel</a>
+        <a href="./overons.php">Garantie</a>
     </div>
     <div>
         <h1>SocialMedia</h1>
