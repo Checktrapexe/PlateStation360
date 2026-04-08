@@ -1,6 +1,11 @@
-<div class="logoContainer">
-    <a href="../index.php"><img src="../media/images/logoWhitePS360.png"
-                                alt="Logo that says PlateStation 360 at a slight angle"></a>
+<div class="logoContainer" href="../index.php">
+    <img src="../media/images/PSlogo.png"
+         alt="Logo that says PlateStation 360 at a slight angle">
+
+    <div>
+        <h1>PlateStation</h1>
+        <h1 class="textP2">360</h1>
+    </div>
 </div>
 
 <div class="navLinks">

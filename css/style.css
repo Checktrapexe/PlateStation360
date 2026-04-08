@@ -27,7 +27,8 @@ h3 {
 a {
     color: white;
     font-family: "Alphazet";
-    font-weight: bold;
+    font-size: b;
+
 }
 
 body {
@@ -40,60 +41,95 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     padding: 0vh 7vw;
-    background-color: #49475b;
+    background-color: #ffffff;
     align-items: center;
 }
 
 .logoContainer img {
-    width: 10vw;
+    width: 90px;
+
     background-color: rgba(255, 255, 255, 0);
 }
 
 
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.logoContainer h1 {
+    font-size: 1.4rem;
+    color: #929394;
+    margin-bottom: 0;
+}
+
+.textP2 {
+    margin-top: 0vh;
+}
+
 .navLinks a {
     text-decoration: none;
-    padding: 10px 12px;
-    color: #12171F;
+    padding: 6px 9px;
+    color: #d5d5d5;
     font-size: 1.3rem;
-    background-color: #799496;
-    border-radius: 15%;
+    background-color: #747479;
+    border-radius: 10px;
 }
 
 .navLinks a:hover {
 
     color: white;
 
-    background-color: #f06449;
+    background-color: #49475b;
 
 }
 
 
 footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     padding: 2vh 10vw;
-    background-color: #49475b;
+    background-color: #1f242f;
     align-items: center;
 }
 
-.footerLogoContainer p {
-    font-size: 0.8rem;
+footer section {
+    display: flex;
+    flex-direction: row;
+    
 }
 
-.footerLogoContainer img {
-    width: 10vw;
-    background-color: rgba(255, 255, 255, 0);
+footer a {
+    text-decoration: none;
 }
 
-.footerLinks a {
+footer div {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+footer h1 {
+    font-size: 1.1rem;
+    color: #b8b9bb;
+}
+
+footer a, p {
     font-size: 0.8rem;
-    padding: 6vh 1vw;
-    color: #12171F;
+    color: #b8b9bb;
+}
+
+.bigFooter {
+    flex: 2.5;
+    margin-right: 10vw;
 }
 
 main {
     padding: 2vw;
 }
 
-
+.bigFooter a {
+    color: #f06449;
+}
