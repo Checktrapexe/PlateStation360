@@ -18,11 +18,13 @@ h1, h2, h3 {
 /* NAVBAR */
 nav {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    padding: 0vh 7vw;
+    background-color: #ffffff;
     align-items: center;
-    padding: 18px 7vw;
-    background-color: #f4f4f2;
 }
+
 
 /* LOGO */
 .logoContainer img {
@@ -31,35 +33,43 @@ nav {
 }
 
 /* LINKS CONTAINER */
-.navLinks {
-    display: flex;
-    gap: 14px;
-    align-items: center;
-}
-
-/* BUTTON STYLE LINKS */
 .navLinks a {
-    padding: 10px 18px;
-    font-size: 1rem;
-    background-color: #e5e5e5;
-    color: #49475b;
-    border-radius: 999px;
-    font-weight: 600;
-    transition: all 0.25s ease;
+    text-decoration: none;
+    padding: 6px 9px;
+    color: #d5d5d5;
+    font-size: 1.3rem;
+    background-color: #747479;
+    border-radius: 10px;
 }
 
-/* HOVER */
 .navLinks a:hover {
-    background-color: #4c4966;
+
     color: white;
-    transform: translateY(-2px);
+
+    background-color: #49475b;
+
 }
 
-/* ACTIVE PAGE */
-.navLinks a.active {
-    background-color: #4c4966;
-    color: white;
+
+.logoContainer img {
+    width: 90px;
+
+    background-color: rgba(255, 255, 255, 0);
 }
+
+
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.logoContainer h1 {
+    font-size: 1.4rem;
+    color: #929394;
+    margin-bottom: 0;
+}
+
 
 /* RESPONSIVE */
 @media (max-width: 700px) {
@@ -271,70 +281,47 @@ nav {
     margin: 0 auto 15px;
 }
 
-/* FOOTER */
-.custom-footer {
-    background-color: #1a2131;
-    color: white;
-    padding: 60px 0 20px;
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2vh 10vw;
+    background-color: #1f242f;
+    align-items: center;
 }
 
-/* GRID */
-.footer-grid {
-    display: grid;
-    grid-template-columns: 1.4fr 1fr 1fr 1fr;
-    gap: 40px;
-    padding-bottom: 40px;
+footer section {
+    display: flex;
+    flex-direction: row;
+
 }
 
-/* LOGO */
-.footerLogoContainer img {
-    width: 140px;
-    margin-bottom: 15px;
+footer a {
+    text-decoration: none;
 }
 
-/* KOLOMMEN */
-.footer-column h3 {
-    font-size: 1.4rem;
-    margin-bottom: 15px;
+footer div {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
-.footer-column p {
-    color: #b8bdc8;
-    margin-bottom: 10px;
+footer h1 {
+    font-size: 1.1rem;
+    color: #b8b9bb;
 }
 
-.footer-column a {
-    color: #d3d7e1;
-    transition: 0.2s;
+footer a, p {
+    font-size: 0.8rem;
+    color: #b8b9bb;
 }
 
-.footer-column a:hover {
-    color: #f06449;
+.bigFooter {
+    flex: 2.5;
+    margin-right: 10vw;
 }
 
-/* LIJST */
-.footer-column ul {
-    list-style: none;
-}
-
-.footer-column li {
-    margin-bottom: 8px;
-}
-
-/* BRAND LINK */
-.footer-brand a {
-    color: #f06449;
-    font-weight: bold;
-}
-
-/* BOTTOM */
-.footer-bottom {
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    padding-top: 15px;
-    text-align: center;
-}
-
-.footer-bottom span {
+.bigFooter a {
     color: #f06449;
 }
 
