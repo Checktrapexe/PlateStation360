@@ -17,6 +17,22 @@
     <?php require_once "pre-set/nav.php"; ?>
 </nav>
 
+<header>
+    <div>
+        <h1>The PlateStation 360</h1>
+        <p>Aliquam erat volutpat. Pellentesque mollis ante in vestibulum gravida. Nullam elementum augue non fermentum
+            tempor. Cras sit amet diam id orci porttitor tempor. Fusce ultrices sed augue nec tempor. Praesent pharetra
+            ornare lacus tincidunt ultrices. Vivamus facilisis odio ligula. Cras interdum nunc a lorem lobortis, vel
+            rhoncus
+            libero malesuada</p>
+        <div>
+            <a href=""></a>
+            <a href=""></a>
+        </div>
+    </div>
+    <img src="" alt="">
+</header>
+
 <main>
 
     <!-- HERO -->
