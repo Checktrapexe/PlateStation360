@@ -18,6 +18,7 @@
 </nav>
 
 <header>
+
     <div>
         <h1>The PlateStation 360</h1>
         <p>Aliquam erat volutpat. Pellentesque mollis ante in vestibulum gravida. Nullam elementum augue non fermentum
@@ -30,11 +31,24 @@
             <a href=""></a>
         </div>
     </div>
-    <img src="" alt="">
+    <div>
+        <img src="" alt="">
+    </div>
 </header>
 
 <main>
-
+    <section class="midMain">
+        <h2>Ultimate Comfort</h2>
+        <p></p>
+    </section>
+    <section class="bottomMain">
+        <h3>Timeless design</h3>
+        <p></p>
+        <div>
+            <a href=""></a>
+            <a href=""></a>
+        </div>
+    </section>
 </main>
 
 <footer class="footer">

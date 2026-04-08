@@ -15,12 +15,12 @@ h1 {
 }
 
 h2 {
-    font-size: 1.7rem;
+    font-size: 2.2rem;
     font-family: "ITC Eras Demi";
 }
 
 h3 {
-    font-size: 1.3rem;
+    font-size: 2.2rem;
     font-family: "ITC Eras Demi";
 }
 
@@ -98,7 +98,7 @@ footer {
 footer section {
     display: flex;
     flex-direction: row;
-    
+
 }
 
 footer a {
@@ -126,10 +126,26 @@ footer a, p {
     margin-right: 10vw;
 }
 
-main {
-    padding: 2vw;
-}
 
 .bigFooter a {
     color: #f06449;
+}
+
+
+.midMain {
+    background-color: #799496;
+}
+
+.bottomMain {
+    background-color: #4a485c;
+}
+
+header {
+    padding: 2vw;
+    display: flex;
+    flex-direction: row;
+}
+
+main section {
+    padding: 2vw;
 }
