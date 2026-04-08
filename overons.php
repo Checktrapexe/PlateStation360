@@ -5,103 +5,142 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>PlateStation360 - Over Ons</title>
     <link rel="stylesheet" href="css/styleoverons.css"/>
+
     <style>
-        @import url(https://db.onlinewebfonts.com/c/457055c70a9c98aa64002f05d6652edc?family=ITC+Eras+Demi);
-        @import url(https://www.dropbox.com/scl/fi/ctijlfue8498st43rt2sq/Alphazet-SemiBold.ttf?rlkey=b8kbprn901h9ezlhh02zlwdr7&st=n1sr65w7&dl=1);
+        @import url('https://db.onlinewebfonts.com/c/457055c70a9c98aa64002f05d6652edc?family=ITC+Eras+Demi');
     </style>
 </head>
+
 <body>
 
 <nav>
     <?php require_once "pre-set/nav.php"; ?>
 </nav>
 
-
 <main>
-    <section class="hero container">
-        <div class="hero-text">
-            <h1>Over Ons</h1>
-            <p>
-                Wij zijn Chris, Efe, Eren en Joey. Voor een schoolopdracht hebben wij
-                de PlateStation360 ontwikkeld. Met dit project richten wij ons op mensen
-                met een motorische beperking in de context van uit eten gaan. Ons doel
-                is om eten toegankelijker, comfortabeler en zelfstandiger te maken.
-            </p>
-        </div>
 
-        <div class="hero-image">
-            <div class="image-placeholder">
-                <img src="media/images/placeholderFoto.png" alt="Placeholder image">
-            </div>
-        </div>
-    </section>
+    <!-- HERO -->
+    <section class="hero-section">
+        <div class="container hero-grid">
 
-    <section class="info-sections container">
-        <div class="info-block">
-            <div class="section-title">
-                <h2>De Opdracht</h2>
-            </div>
-            <div class="line blue"></div>
-            <p>
-                Voor deze opdracht hebben wij een oplossing bedacht voor mensen met een
-                motorische beperking in de context van uit eten gaan. Hieruit is de
-                PlateStation360 ontstaan.
-            </p>
-        </div>
-
-        <div class="info-block">
-            <div class="section-title">
-                <h2>Doelgroep &amp; Context</h2>
-            </div>
-            <div class="line blue"></div>
-            <p>
-                Mensen met een motorische beperking die moeite kunnen ervaren met
-                zelfstandig eten.
-            </p>
-
-            <div class="context-card">
-                <h3>Uit Eten Gaan</h3>
+            <div class="hero-content">
+                <h1>Over Ons</h1>
+                <h2><span>Team 13</span></h2>
                 <p>
-                    De PlateStation360 is ontworpen voor de situatie van uit eten gaan,
-                    waar zelfstandig eten soms lastig kan zijn.
+                    Wij zijn Eren, Chris, Efe en Joey. Voor een schoolopdracht hebben wij
+                    de PlateStation360 ontwikkeld. Ons doel is om eten toegankelijker,
+                    comfortabeler en zelfstandiger te maken.
                 </p>
+
+                <div class="hero-buttons">
+                    <a href="#" class="btn btn-primary">Meer info</a>
+                    <a href="#" class="btn btn-secondary">Contact</a>
+                </div>
             </div>
+
+            <div class="hero-visual">
+                <div class="product-image">
+                    <img src="media/images/placeholderFoto.png" alt="">
+                </div>
+            </div>
+
         </div>
     </section>
 
+    <!-- FEATURE / OPDRACHT -->
+    <section class="feature-section feature-light">
+        <div class="container feature-grid">
+
+            <div class="feature-image">
+                <img src="media/images/placeholderFoto.png" alt="">
+            </div>
+
+            <div class="light-text">
+                <h2>De Opdracht</h2>
+                <p>
+                    Voor deze opdracht hebben wij een oplossing bedacht voor mensen met een
+                    motorische beperking.
+                </p>
+
+                <div class="info-card">
+                    <h3>PlateStation360</h3>
+                    <p>
+                        Een slimme oplossing die zelfstandig eten makkelijker maakt.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- STORY / CONTEXT -->
+    <section class="story-section">
+        <div class="container story-grid">
+
+            <div class="story-content">
+                <h2>Doelgroep & Context</h2>
+                <p>
+                    Onze doelgroep bestaat uit mensen met een motorische beperking die
+                    moeite hebben met zelfstandig eten.
+                </p>
+                <p>
+                    De PlateStation360 is ontworpen voor situaties zoals uit eten gaan,
+                    waar comfort en zelfstandigheid belangrijk zijn.
+                </p>
+
+                <div class="team-buttons">
+                    <a href="#" class="btn btn-light">Lees meer</a>
+                    <a href="#" class="btn btn-outline-light">Contact</a>
+                </div>
+            </div>
+
+            <div class="story-image">
+                <img src="media/images/placeholderFoto.png" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- TEAM -->
     <section class="team-section">
         <div class="container">
-            <div class="team-header">
-                <div class="section-title">
-                    <h2>Ons Team</h2>
-                </div>
-                <p>Maak kennis met de gezichten achter PlateStation360.</p>
-                <div class="line white"></div>
+
+            <div class="section-heading">
+                <h2>Ons Team</h2>
+                <p>Maak kennis met de mensen achter PlateStation360</p>
             </div>
 
             <div class="team-grid">
+
+                <div class="team-card">
+                    <div class="avatar"></div>
+                    <h3>Eren</h3>
+                    <p>Developer</p>
+                </div>
+
                 <div class="team-card">
                     <div class="avatar"></div>
                     <h3>Chris</h3>
+                    <p>Designer</p>
                 </div>
 
                 <div class="team-card">
                     <div class="avatar"></div>
                     <h3>Efe</h3>
-                </div>
-
-                <div class="team-card">
-                    <div class="avatar"></div>
-                    <h3>Eren</h3>
+                    <p>Research</p>
                 </div>
 
                 <div class="team-card">
                     <div class="avatar"></div>
                     <h3>Joey</h3>
+                    <p>Concept</p>
                 </div>
+
             </div>
+
         </div>
     </section>
+
 </main>
 
 <footer class="footer">
