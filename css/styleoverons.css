@@ -82,11 +82,49 @@ nav {
 /* NAV */
 nav {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    padding: 0vh 7vw;
+    background-color: #ffffff;
     align-items: center;
-    padding: 0 7vw;
-    background-color: #49475b;
 }
+
+.logoContainer img {
+    width: 90px;
+
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.logoContainer h1 {
+    font-size: 1.4rem;
+    color: #929394;
+    margin-bottom: 0;
+}
+
+.navLinks a {
+    text-decoration: none;
+    padding: 6px 9px;
+    color: #d5d5d5;
+    font-size: 1.3rem;
+    background-color: #747479;
+    border-radius: 10px;
+}
+
+.navLinks a:hover {
+
+    color: white;
+
+    background-color: #49475b;
+
+}
+
 
 /* BUTTONS */
 /* ALGEMENE BUTTON */
@@ -271,101 +309,46 @@ nav {
 }
 
 /* FOOTER */
-.custom-footer {
-    background-color: #1a2131;
-    color: white;
-    padding: 60px 0 20px;
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2vh 10vw;
+    background-color: #1f242f;
+    align-items: center;
 }
 
-/* GRID */
-.footer-grid {
-    display: grid;
-    grid-template-columns: 1.4fr 1fr 1fr 1fr;
-    gap: 40px;
-    padding-bottom: 40px;
+footer section {
+    display: flex;
+    flex-direction: row;
+
 }
 
-/* LOGO */
-.footerLogoContainer img {
-    width: 140px;
-    margin-bottom: 15px;
+footer a {
+    text-decoration: none;
 }
 
-/* KOLOMMEN */
-.footer-column h3 {
-    font-size: 1.4rem;
-    margin-bottom: 15px;
+footer div {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
-.footer-column p {
-    color: #b8bdc8;
-    margin-bottom: 10px;
+footer h1 {
+    font-size: 1.1rem;
+    color: #b8b9bb;
 }
 
-.footer-column a {
-    color: #d3d7e1;
-    transition: 0.2s;
+footer a, p {
+    font-size: 0.8rem;
+    color: #b8b9bb;
 }
 
-.footer-column a:hover {
+.bigFooter {
+    flex: 2.5;
+    margin-right: 10vw;
+}
+
+.bigFooter a {
     color: #f06449;
-}
-
-/* LIJST */
-.footer-column ul {
-    list-style: none;
-}
-
-.footer-column li {
-    margin-bottom: 8px;
-}
-
-/* BRAND LINK */
-.footer-brand a {
-    color: #f06449;
-    font-weight: bold;
-}
-
-/* BOTTOM */
-.footer-bottom {
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    padding-top: 15px;
-    text-align: center;
-}
-
-.footer-bottom span {
-    color: #f06449;
-}
-
-/* RESPONSIVE */
-@media (max-width: 900px) {
-    .footer-grid {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media (max-width: 500px) {
-    .footer-grid {
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
-}
-
-/* RESPONSIVE */
-@media (max-width: 900px) {
-    .hero-grid,
-    .feature-grid,
-    .story-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .team-grid {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media (max-width: 500px) {
-    .team-grid {
-        grid-template-columns: 1fr;
-    }
 }
