@@ -73,7 +73,7 @@ nav {
 .navLinks a {
     text-decoration: none;
     padding: 6px 9px;
-    color: #d5d5d5;
+    color: #ffffff;
     font-size: 1.3rem;
     background-color: #747479;
     border-radius: 10px;
@@ -157,8 +157,16 @@ header {
     gap: 3vw;
 }
 
+header h1 {
+    color: #3a3a4a;
+}
+
 header div {
     flex: 1;
+}
+
+header p {
+    color: #3a3a4a;
 }
 
 header div:first-child {
@@ -186,11 +194,12 @@ header img {
     padding: 10px 20px;
     border-radius: 8px;
     text-decoration: none;
+    color: black;
 }
 
 .secondary {
     background-color: #f06449;
-    color: #ffffff;
+    color: #000000;
     padding: 10px 20px;
     border-radius: 8px;
     text-decoration: none;
@@ -198,7 +207,7 @@ header img {
 
 .tertiary {
     background-color: rgba(229, 229, 229, 0);
-    color: #e5e5e5;
+    color: white;
     padding: 10px 20px;
     border-radius: 8px;
     border: #f06449 2px solid;
@@ -208,6 +217,7 @@ header img {
 
 .primary:hover {
     background-color: #4a485c;
+    color: white;
 }
 
 .secondary:hover {
