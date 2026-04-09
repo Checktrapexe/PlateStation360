@@ -165,6 +165,10 @@ header div {
     flex: 1;
 }
 
+header p {
+    color: #3a3a4a;
+}
+
 header div:first-child {
     display: flex;
     flex-direction: column;
