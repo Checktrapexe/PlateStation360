@@ -1,6 +1,8 @@
 * {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: none;
 }
 
 body {
@@ -10,17 +12,34 @@ body {
     line-height: 1.6;
 }
 
-h1, h2, h3 {
-    font-family: "ITC Eras Demi", Arial, sans-serif;
+h1 {
+    font-size: 2.2rem;
+    font-family: "ITC Eras Demi";
+}
+
+h2 {
+    font-size: 1.7rem;
+    font-family: "ITC Eras Demi";
+}
+
+h3 {
+    font-size: 1.3rem;
+    font-family: "ITC Eras Demi";
+}
+
+a {
+    color: white;
+    font-family: "Alphazet";
 }
 
 /* NAVBAR */
 nav {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    padding: 0vh 7vw;
+    background-color: #ffffff;
     align-items: center;
-    padding: 18px 7vw;
-    background-color: #f4f4f2;
 }
 
 /* LOGO */
@@ -29,22 +48,15 @@ nav {
     object-fit: contain;
 }
 
-/* LINKS CONTAINER */
-.navLinks {
-    display: flex;
-    gap: 14px;
-    align-items: center;
-}
 
 /* BUTTON STYLE LINKS */
 .navLinks a {
-    padding: 10px 18px;
-    font-size: 1rem;
-    background-color: #e5e5e5;
-    color: #49475b;
-    border-radius: 999px;
-    font-weight: 600;
-    transition: all 0.25s ease;
+    text-decoration: none;
+    padding: 6px 9px;
+    color: #ffffff;
+    font-size: 1.3rem;
+    background-color: #747479;
+    border-radius: 10px;
 }
 
 /* HOVER */
@@ -106,6 +118,10 @@ nav {
     font-size: 1.4rem;
     color: #929394;
     margin-bottom: 0;
+}
+
+.textP2 {
+    margin-top: 0vh;
 }
 
 .navLinks a {
@@ -188,6 +204,7 @@ nav {
 /* HERO */
 .hero-section {
     padding: 80px 0;
+    background-color: #ffffff;
 }
 
 .hero-grid {
@@ -196,6 +213,7 @@ nav {
     align-items: center;
     gap: 50px;
 }
+
 
 .hero-content h1 {
     font-size: 3.5rem;
