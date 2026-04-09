@@ -1,9 +1,87 @@
-/*@font-face {*/
-/*    font-family: Alphazet;*/
-/*    src: url("https://www.dropbox.com/scl/fi/ctijlfue8498st43rt2sq/Alphazet-SemiBold.ttf?rlkey=b8kbprn901h9ezlhh02zlwdr7&st=n1sr65w7&dl=1");*/
-/*}*/
+* {
+    box-sizing: border-box;
+}
+
+.contact-section {
+    padding: 80px 20px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-container {
+    width: 100%;
+    max-width: 700px;
+}
+
+.contact-container h1 {
+    font-family: "ITC Eras Demi";
+    font-size: 2rem;
+    margin-bottom: 16px;
+}
+
+.contact-intro {
+    color: #666;
+    margin-bottom: 32px;
+    line-height: 1.6;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px 14px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 0.9rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #7a9e9b;
+}
+
+.contact-form button {
+    width: fit-content;
+}
+
+/*button*/
+.btn {
+    padding: 12px 24px;
+    font-size: 0.88rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 2px solid #f06449;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-primary {
+    background: #f06449;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background: #3a3a4a;
+    border: 2px solid #3a3a4a;
+}
 
 
+/*nav en footer*/
 p {
     font-size: 1.1rem;
     font-family: Arial;
@@ -15,20 +93,18 @@ h1 {
 }
 
 h2 {
-    font-size: 2.2rem;
+    font-size: 1.7rem;
     font-family: "ITC Eras Demi";
 }
 
 h3 {
-    font-size: 2.2rem;
+    font-size: 1.3rem;
     font-family: "ITC Eras Demi";
 }
 
 a {
     color: white;
     font-family: "Alphazet";
-    font-size: b;
-
 }
 
 body {
@@ -126,26 +202,10 @@ footer a, p {
     margin-right: 10vw;
 }
 
+main {
+    padding: 2vw;
+}
 
 .bigFooter a {
     color: #f06449;
-}
-
-
-.midMain {
-    background-color: #799496;
-}
-
-.bottomMain {
-    background-color: #4a485c;
-}
-
-header {
-    padding: 2vw;
-    display: flex;
-    flex-direction: row;
-}
-
-main section {
-    padding: 2vw;
 }
