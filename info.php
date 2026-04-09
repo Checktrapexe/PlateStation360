@@ -18,7 +18,7 @@
     <?php require_once "pre-set/nav.php"; ?>
 </nav>
 
-<!-- PRODUCT HERO -->
+<!--PRODUCT HERO -->
 <section class="product-section">
 
     <div class="product-info">
