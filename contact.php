@@ -18,37 +18,38 @@
     <?php require_once "pre-set/nav.php"; ?>
 </nav>
 
-<section class="contact-section">
+<main>
+    <section class="contact-section">
 
-    <div class="contact-container">
+        <div class="contact-container">
 
-        <h1>Contact</h1>
-        <p class="contact-intro">
-            Heb je een vraag over het product? Neem gerust contact met ons op.
-            We reageren zo snel mogelijk.
-        </p>
+            <h1>Contact</h1>
+            <p class="contact-intro">
+                Heb je een vraag over het product? Neem gerust contact met ons op.
+                We reageren zo snel mogelijk.
+            </p>
 
-        <form class="contact-form">
+            <form class="contact-form">
 
-            <div class="form-row">
-                <input type="text" placeholder="Naam" required>
-                <input type="email" placeholder="E-mail" required>
-            </div>
+                <div class="form-row">
+                    <input type="text" placeholder="Naam" required>
+                    <input type="email" placeholder="E-mail" required>
+                </div>
 
-            <input type="text" placeholder="Onderwerp">
+                <input type="text" placeholder="Onderwerp">
 
-            <textarea placeholder="Bericht" rows="5" required></textarea>
+                <textarea placeholder="Bericht" rows="5" required></textarea>
 
-            <button type="submit" class="btn btn-primary">
-                Versturen
-            </button>
+                <button type="submit" class="btn btn-primary">
+                    Versturen
+                </button>
 
-        </form>
+            </form>
 
-    </div>
+        </div>
 
-</section>
-
+    </section>
+</main>
 <footer>
     <?php require_once "pre-set/footer.php"; ?>
 </footer>

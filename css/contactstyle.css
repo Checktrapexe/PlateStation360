@@ -53,6 +53,11 @@
     border-color: #7a9e9b;
 }
 
+textarea {
+    max-width: 100%;
+    max-height: 200px;
+}
+
 .contact-form button {
     width: fit-content;
 }
