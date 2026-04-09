@@ -217,6 +217,7 @@ header img {
 
 .primary:hover {
     background-color: #4a485c;
+    color: white;
 }
 
 .secondary:hover {
