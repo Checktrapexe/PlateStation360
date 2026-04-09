@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+}
+
+.contact-section {
+    padding: 80px 20px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-container {
+    width: 100%;
+    max-width: 700px;
+}
+
+.contact-container h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+    margin-bottom: 16px;
+}
+
+.contact-intro {
+    color: #666;
+    margin-bottom: 32px;
+    line-height: 1.6;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px 14px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 0.9rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #7a9e9b;
+}
+
+.contact-form button {
+    width: fit-content;
+}
+
+/*button*/
+.btn {
+    padding: 12px 24px;
+    font-size: 0.88rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 2px solid #f06449;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-primary {
+    background: #f06449;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background: #3a3a4a;
+    border: 2px solid #3a3a4a;
+}
+
+
+/*nav en footer*/
+p {
+    font-size: 1.1rem;
+    font-family: Arial;
+}
+
+h1 {
+    font-size: 2.2rem;
+    font-family: "ITC Eras Demi";
+}
+
+h2 {
+    font-size: 1.7rem;
+    font-family: "ITC Eras Demi";
+}
+
+h3 {
+    font-size: 1.3rem;
+    font-family: "ITC Eras Demi";
+}
+
+a {
+    color: white;
+    font-family: "Alphazet";
+    font-size: b;
+
+}
+
+body {
+    margin: 0;
+    background-color: #ffffff;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0vh 7vw;
+    background-color: #ffffff;
+    align-items: center;
+}
+
+.logoContainer img {
+    width: 90px;
+
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.logoContainer h1 {
+    font-size: 1.4rem;
+    color: #929394;
+    margin-bottom: 0;
+}
+
+.textP2 {
+    margin-top: 0vh;
+}
+
+.navLinks a {
+    text-decoration: none;
+    padding: 6px 9px;
+    color: #d5d5d5;
+    font-size: 1.3rem;
+    background-color: #747479;
+    border-radius: 10px;
+}
+
+.navLinks a:hover {
+
+    color: white;
+
+    background-color: #49475b;
+
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2vh 10vw;
+    background-color: #1f242f;
+    align-items: center;
+}
+
+footer section {
+    display: flex;
+    flex-direction: row;
+
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+footer h1 {
+    font-size: 1.1rem;
+    color: #b8b9bb;
+}
+
+footer a, p {
+    font-size: 0.8rem;
+    color: #b8b9bb;
+}
+
+.bigFooter {
+    flex: 2.5;
+    margin-right: 10vw;
+}
+
+main {
+    padding: 2vw;
+}
+
+.bigFooter a {
+    color: #f06449;
+}

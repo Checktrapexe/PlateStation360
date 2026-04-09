@@ -12,5 +12,5 @@
     <a href="../index.php">Home</a>
     <a href="../info.php">PS 360</a>
     <a href="../overons.php">Over ons</a>
-    <a href="">Contact</a>
+    <a href="../contact.php">Contact</a>
 </div>

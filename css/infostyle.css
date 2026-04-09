@@ -74,13 +74,18 @@ body {
     font-weight: 500;
     border-radius: 6px;
     cursor: pointer;
-    border: 2px solid #3a3a4a;
+    border: 2px solid #f06449;
     text-decoration: none;
 }
 
 .btn-primary {
-    background: #3a3a4a;
+    background: #f06449;
     color: #ffffff;
+}
+
+.btn-primary:hover {
+    background: #3a3a4a;
+    border: 2px solid #3a3a4a;
 }
 
 .product-image-wrap {
