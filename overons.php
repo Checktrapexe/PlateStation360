@@ -18,8 +18,6 @@
 </nav>
 
 <main>
-
-    <!-- HERO -->
     <section class="hero-section">
         <div class="container hero-grid">
 
