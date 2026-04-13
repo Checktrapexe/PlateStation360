@@ -9,7 +9,6 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f2;
     color: #3f4058;
-    line-height: 1.6;
 }
 
 h1 {
@@ -114,14 +113,19 @@ nav {
 }
 
 
+.textP2 {
+    margin-top: 0;
+}
+
 .logoContainer h1 {
     font-size: 1.4rem;
     color: #929394;
     margin-bottom: 0;
+
 }
 
-.textP2 {
-    margin-top: 0vh;
+.textP1 {
+    margin-top: 2vh;
 }
 
 .navLinks a {
