@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>PlateStation360 - Over Ons</title>
     <link rel="stylesheet" href="css/styleoverons.css"/>
-
+    <script type="text/javascript" src="js/main.js" defer></script>
     <style>
         @import url('https://db.onlinewebfonts.com/c/457055c70a9c98aa64002f05d6652edc?family=ITC+Eras+Demi');
     </style>
