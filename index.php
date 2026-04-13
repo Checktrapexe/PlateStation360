@@ -27,8 +27,8 @@
             rhoncus
             libero malesuada</p>
         <div class="buttons">
-            <a href="info.php" class="primary">Meer Info</a>
-            <a href="#" class="primary">Koop Platestation</a>
+            <a href="info.php" class="btn btn-primary">Meer Info</a>
+            <a href="#" class="btn btn-secondary">Koop Platestation</a>
         </div>
     </div>
     <div>

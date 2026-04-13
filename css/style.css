@@ -32,7 +32,7 @@ h3 {
 a {
     color: white;
     font-family: "Alphazet";
-    font-size: b;
+
 
 }
 
@@ -164,6 +164,11 @@ header {
     gap: 3vw;
 }
 
+header a {
+    font-weight: bold;
+}
+
+
 header h1 {
     color: #3a3a4a;
 }
@@ -243,6 +248,10 @@ main {
     flex-direction: column;
 }
 
+main a {
+    font-weight: bold;
+}
+
 main section {
     padding: 5vw 7vw;
 }
@@ -308,4 +317,33 @@ main section {
 
 main p, h2, h3 {
     color: white;
+}
+
+.btn-primary {
+    background-color: #f06449;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #3f3b56;
+}
+
+.btn-secondary {
+    border: 2px solid #f06449;
+    color: #f06449;
+}
+
+.btn-secondary:hover {
+    background-color: #5a5575;
+    color: #ffffff;
+    border: 2px solid #5a5575;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 26px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.25s ease;
 }
