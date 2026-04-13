@@ -9,7 +9,6 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f2;
     color: #3f4058;
-    line-height: 1.6;
 }
 
 h1 {
@@ -32,6 +31,7 @@ a {
     font-family: "Alphazet";
 }
 
+
 /* NAVBAR */
 nav {
     display: flex;
@@ -40,6 +40,7 @@ nav {
     padding: 0vh 7vw;
     background-color: #ffffff;
     align-items: center;
+    opacity: 1;
 }
 
 /* LOGO */
@@ -114,14 +115,19 @@ nav {
 }
 
 
+.textP2 {
+    margin-top: 0;
+}
+
 .logoContainer h1 {
     font-size: 1.4rem;
     color: #929394;
     margin-bottom: 0;
+
 }
 
-.textP2 {
-    margin-top: 0vh;
+.textP1 {
+    margin-top: 2vh;
 }
 
 .navLinks a {
@@ -155,28 +161,28 @@ nav {
 
 /* DONKERE BUTTON */
 .btn-primary {
-    background-color: #4c4966;
+    background-color: #f06449;
     color: white;
 }
 
 .btn-primary:hover {
-    background-color: #3f3b56;
+    background-color: #f06449;
 }
 
 .btn-secondary {
-    border: 2px solid #3f3b56;
-    color: #3f3b56;
+    border: 2px solid #f06449;
+    color: #f06449;
 }
 
 .btn-secondary:hover {
     background-color: white;
-    color: #5a5575;
+    color: #f06449;
 }
 
 
 /* LICHTE BUTTON (zoals in paarse section) */
 .btn-light {
-    background-color: white;
+    background-color: #f06449;
     color: #5a5575;
 }
 
@@ -186,8 +192,8 @@ nav {
 
 /* OUTLINE BUTTON */
 .btn-outline-light {
-    border: 2px solid rgba(255, 255, 255, 0.7);
-    color: white;
+    border: 2px solid #f06449;
+    color: #f06449;
 }
 
 .btn-outline-light:hover {
@@ -227,7 +233,9 @@ nav {
 
 .hero-content p {
     margin-top: 15px;
+    color: black;
 }
+
 
 .hero-buttons {
     margin-top: 20px;
@@ -265,6 +273,10 @@ nav {
     color: white;
 }
 
+.light-text p {
+    color: white;
+}
+
 .info-card {
     background-color: rgba(255, 255, 255, 0.2);
     padding: 20px;
@@ -287,6 +299,11 @@ nav {
     padding: 80px 20px;
 }
 
+.story-content p {
+    color: white;
+}
+
+
 .story-image img {
     width: 100%;
     height: 100%;
@@ -303,6 +320,10 @@ nav {
 .section-heading {
     text-align: center;
     margin-bottom: 40px;
+}
+
+.section-heading p {
+    color: white;
 }
 
 .team-grid {
@@ -369,4 +390,30 @@ footer a, p {
 
 .bigFooter a {
     color: #f06449;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+header {
+    animation: fadeIn 0.8s ease-in forwards;
+}
+
+main {
+    animation: fadeIn 0.8s ease-in forwards;
+}
+
+footer {
+    animation: fadeIn 0.8s ease-in forwards;
+}
+
+
+header {
+    opacity: 0;
 }

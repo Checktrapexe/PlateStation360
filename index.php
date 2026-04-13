@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>PlateStation360 - Over Ons</title>
     <link rel="stylesheet" href="css/style.css"/>
-
+    <script type="text/javascript" src="js/main.js" defer></script>
     <style>
         @import url('https://db.onlinewebfonts.com/c/457055c70a9c98aa64002f05d6652edc?family=ITC+Eras+Demi');
     </style>
@@ -27,8 +27,8 @@
             rhoncus
             libero malesuada</p>
         <div class="buttons">
-            <a href="info.php" class="primary">Meer Info</a>
-            <a href="#" class="primary">Koop Platestation</a>
+            <a href="info.php" class="btn btn-primary">Meer Info</a>
+            <a href="#" class="btn btn-secondary">Koop Platestation</a>
         </div>
     </div>
     <div>

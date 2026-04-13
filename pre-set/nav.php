@@ -3,7 +3,7 @@
          alt="Logo that says PlateStation 360 at a slight angle">
 
     <div>
-        <h1>PlateStation</h1>
+        <h1 class="textP1">PlateStation</h1>
         <h1 class="textP2">360</h1>
     </div>
 </div>

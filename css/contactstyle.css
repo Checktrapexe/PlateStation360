@@ -110,6 +110,7 @@ nav {
     padding: 0vh 7vw;
     background-color: #ffffff;
     align-items: center;
+    opacity: 1;
 }
 
 .logoContainer img {
@@ -199,4 +200,29 @@ main {
 
 .bigFooter a {
     color: #f06449;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+header {
+    animation: fadeIn 0.8s ease-in forwards;
+}
+
+main {
+    animation: fadeIn 0.8s ease-in forwards;
+}
+
+footer {
+    animation: fadeIn 0.8s ease-in forwards;
+}
+
+header {
+    opacity: 0;
 }
