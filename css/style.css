@@ -39,6 +39,7 @@ a {
 body {
     margin: 0;
     background-color: #ffffff;
+
 }
 
 nav {
@@ -48,6 +49,7 @@ nav {
     padding: 0vh 7vw;
     background-color: #ffffff;
     align-items: center;
+    opacity: 1;
 }
 
 .logoContainer img {
@@ -153,6 +155,7 @@ header {
     padding: 2vw;
     display: flex;
     flex-direction: row;
+    opacity: 0;
 }
 
 
@@ -346,4 +349,25 @@ main p, h2, h3 {
     font-weight: bold;
     text-decoration: none;
     transition: all 0.25s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+header {
+    animation: fadeIn 0.8s ease-in forwards;
+}
+
+main {
+    animation: fadeIn 0.8s ease-in forwards;
+}
+
+footer {
+    animation: fadeIn 0.8s ease-in forwards;
 }

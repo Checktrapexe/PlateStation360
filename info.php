@@ -6,7 +6,7 @@
     <title>Infopagina</title>
 
     <link rel="stylesheet" href="css/infostyle.css">
-
+    <script type="text/javascript" src="js/main.js" defer></script>
     <style>
         @import url('https://db.onlinewebfonts.com/c/457055c70a9c98aa64002f05d6652edc?family=ITC+Eras+Demi');
     </style>
