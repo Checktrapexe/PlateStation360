@@ -32,7 +32,7 @@
         </div>
     </div>
     <div>
-        <img src="media/images/placeholderFoto.png" alt="">
+        <img src="media/images/platestaion%20base.png" alt="">
     </div>
 </header>
 
@@ -43,7 +43,7 @@
 
 
             <div class="midImage">
-                <img src="media/images/plate.png" alt="PlateStation food">
+                <img src="media/images/platestationfood2.png" alt="PlateStation food">
             </div>
 
 
@@ -81,7 +81,7 @@
 
 
             <div class="bottomImage">
-                <img src="media/images/dinner.png" alt="Dinner with PlateStation">
+                <img src="media/images/platestationeating.png" alt="Dinner with PlateStation">
             </div>
 
         </div>
