@@ -50,6 +50,7 @@ nav {
     background-color: #ffffff;
     align-items: center;
     opacity: 1;
+
 }
 
 .logoContainer img {
@@ -86,12 +87,13 @@ nav {
     font-size: 1.3rem;
     background-color: #747479;
     border-radius: 10px;
+    transition: 0.25s ease;
 }
 
 .navLinks a:hover {
 
     color: white;
-
+    transition: all 0.25s ease;
     background-color: #49475b;
 
 }
@@ -152,10 +154,11 @@ footer a, p {
 }
 
 header {
-    padding: 2vw;
     display: flex;
     flex-direction: row;
     opacity: 0;
+    padding: 80px 0;
+    background-color: #ffffff;
 }
 
 
