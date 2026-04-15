@@ -164,10 +164,10 @@ header {
 
 header {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     padding: 4vw 7vw;
     gap: 3vw;
+    padding-bottom: 8vh;
 }
 
 header a {
@@ -321,6 +321,7 @@ main section {
 .bottomImage img {
     width: 100%;
     height: auto;
+    border-radius: 8px;
 }
 
 
@@ -359,6 +360,7 @@ main p, h2, h3 {
     font-weight: bold;
     text-decoration: none;
     transition: all 0.25s ease;
+    margin: auto;
 }
 
 @keyframes fadeIn {

@@ -4,8 +4,7 @@
 }
 
 
-body {
-    font-family: Arial;
+body {;
     background: #f4f4f4;
     color: #3a3a4a;
 
@@ -31,10 +30,9 @@ header {
 }
 
 .product-info {
-    padding: 72px 56px;
+    padding: 4vw 7vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .product-info h1 {
@@ -44,6 +42,7 @@ header {
     line-height: 1.15;
     color: black;
     margin-bottom: 20px;
+    margin-top: 0;
 }
 
 .product-info h1 .sub {
@@ -65,10 +64,10 @@ header {
 }
 
 .btn {
-    padding: 12px 24px;
-    font-size: 0.88rem;
-    font-family: Arial;
-    font-weight: 500;
+    padding: 12px 26px;
+
+    font-family: "Alphazet";
+    font-weight: bold;
     border-radius: 6px;
     cursor: pointer;
     border: 2px solid #f06449;
