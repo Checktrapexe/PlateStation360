@@ -138,17 +138,18 @@ nav {
 
 .navLinks a {
     text-decoration: none;
-    padding: 6px 9px;
+    padding: 8px 11px;
     color: #ffffff;
     font-size: 1.3rem;
     background-color: #747479;
     border-radius: 10px;
+    transition: 0.25s ease;
 }
 
 .navLinks a:hover {
 
     color: white;
-
+    transition: all 0.25s ease;
     background-color: #49475b;
 
 }

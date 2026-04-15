@@ -131,17 +131,18 @@ nav {
 
 .navLinks a {
     text-decoration: none;
-    padding: 6px 9px;
+    padding: 8px 11px;
     color: #ffffff;
     font-size: 1.3rem;
     background-color: #747479;
     border-radius: 10px;
+    transition: 0.25s ease;
 }
 
 .navLinks a:hover {
 
     color: white;
-
+    transition: all 0.25s ease;
     background-color: #49475b;
 
 }
@@ -162,48 +163,61 @@ nav {
 .btn-primary {
     background-color: #f06449;
     color: white;
+    transition: all 0.25s ease;
 }
 
 .btn-primary:hover {
-    background-color: #f06449;
+    background-color: #49475b;
+    transition: all 0.25s ease;
 }
 
 .btn-secondary {
     border: 2px solid #f06449;
     color: #f06449;
+    transition: all 0.25s ease;
 }
 
 .btn-secondary:hover {
-    background-color: white;
-    color: #f06449;
+    background-color: #49475b;
+    color: #ffffff;
+    border: 2px solid #49475b;
+    transition: all 0.25s ease;
 }
 
 
 /* LICHTE BUTTON (zoals in paarse section) */
 .btn-light {
     background-color: #f06449;
-    color: #5a5575;
+    color: black;
+    transition: all 0.25s ease;
 }
 
 .btn-light:hover {
-    background-color: #eaeaea;
+    background-color: #ffffff;
+    transition: all 0.25s ease;
+    color: black;
 }
 
 /* OUTLINE BUTTON */
 .btn-outline-light {
     border: 2px solid #f06449;
     color: #f06449;
+    transition: all 0.25s ease;
 }
 
 .btn-outline-light:hover {
-    background-color: white;
+    background-color: #ffffff;
     color: #5a5575;
+    border: 2px solid #ffffff;
+    transition: all 0.25s ease;
+    color: black;
 }
 
 .team-buttons {
     display: flex;
     gap: 16px;
     margin-top: 25px;
+    transition: all 0.25s ease;
 }
 
 /* HERO */
@@ -240,6 +254,7 @@ nav {
     margin-top: 20px;
     display: flex;
     gap: 10px;
+    transition: all 0.25s ease;
 }
 
 .product-image img {

@@ -82,7 +82,7 @@ nav {
 
 .navLinks a {
     text-decoration: none;
-    padding: 6px 9px;
+    padding: 8px 11px;
     color: #ffffff;
     font-size: 1.3rem;
     background-color: #747479;
@@ -205,6 +205,7 @@ header img {
     display: flex;
     gap: 1rem;
     margin-top: 1rem;
+    transition: all 0.25s ease;
 }
 
 .primary {
@@ -213,6 +214,7 @@ header img {
     border-radius: 8px;
     text-decoration: none;
     color: black;
+    transition: all 0.25s ease;
 }
 
 .secondary {
@@ -221,6 +223,7 @@ header img {
     padding: 10px 20px;
     border-radius: 8px;
     text-decoration: none;
+    transition: all 0.25s ease;
 }
 
 .tertiary {
@@ -230,23 +233,27 @@ header img {
     border-radius: 8px;
     border: #f06449 2px solid;
     text-decoration: none;
+    transition: all 0.25s ease;
 }
 
 
 .primary:hover {
     background-color: #4a485c;
     color: white;
+    transition: all 0.25s ease;
 }
 
 .secondary:hover {
     background-color: #ffffff;
     color: #49475b;
+    transition: all 0.25s ease;
 }
 
 .tertiary:hover {
     background-color: #ffffff;
     color: #49475b;
     border: rgba(240, 100, 73, 0) 2px solid;
+    transition: all 0.25s ease;
 }
 
 main {
