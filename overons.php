@@ -38,7 +38,7 @@
 
             <div class="hero-visual">
                 <div class="product-image">
-                    <img src="media/images/placeholderFoto.png" alt="">
+                    <img src="media/images/platestationfood2.png" alt="">
                 </div>
             </div>
 
@@ -48,7 +48,7 @@
         <div class="container feature-grid">
 
             <div class="feature-image">
-                <img src="media/images/placeholderFoto.png" alt="">
+                <img src="media/images/platestationfood.png" alt="">
             </div>
 
             <div class="light-text">

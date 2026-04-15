@@ -36,7 +36,7 @@
         </div>
 
         <div class="product-image-wrap">
-            <img class="product-img" src="media/images/placeholderFoto.png" alt="">
+            <img class="product-img" src="media/images/platestationinuise.png" alt="">
         </div>
 
     </section>
