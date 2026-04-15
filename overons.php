@@ -44,8 +44,6 @@
 
         </div>
     </section>
-
-    <!-- FEATURE / OPDRACHT -->
     <section class="feature-section feature-light">
         <div class="container feature-grid">
 
@@ -100,7 +98,7 @@
     </section>
 
     <!-- TEAM -->
-    <section class="team-section">
+    <section class="team-section ">
         <div class="container">
 
             <div class="section-heading">

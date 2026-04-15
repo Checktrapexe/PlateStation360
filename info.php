@@ -31,7 +31,7 @@
 
             <div class="btn-group">
                 <a href="#" class="btn btn-primary">Meer Info</a>
-                <a href="#" class="btn btn-primary">Contact</a>
+                <a href="#" class="btn btn-secondary">Contact</a>
             </div>
         </div>
 
