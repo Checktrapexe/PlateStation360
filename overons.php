@@ -109,13 +109,18 @@
             <div class="team-grid">
 
                 <div class="team-card">
-                    <div class="avatar"></div>
+                    <div class="avatar">
+
+                    </div>
+
                     <h3>Eren</h3>
                     <p>Developer</p>
                 </div>
 
                 <div class="team-card">
-                    <div class="avatar"></div>
+                    <div class="avatar">
+                        <img src="media/images/chrisAboutus.png" alt="" class="avatar">
+                    </div>
                     <h3>Chris</h3>
                     <p>Designer</p>
                 </div>
