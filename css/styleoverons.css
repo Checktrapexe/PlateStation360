@@ -31,6 +31,12 @@ a {
     font-family: "Alphazet";
 }
 
+p {
+    margin-top: 2vh;
+    font-size: 1.1rem;
+    font-family: Arial;
+}
+
 /* NAVBAR */
 nav {
     display: flex;
