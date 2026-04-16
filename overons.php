@@ -90,7 +90,7 @@
             </div>
 
             <div class="story-image">
-                <img src="media/images/placeholderFoto.png" alt="">
+                <img src="media/images/platestationinuise.png" alt="">
             </div>
 
         </div>
@@ -133,7 +133,9 @@
                 </div>
 
                 <div class="team-card">
-                    <div class="avatar"></div>
+                    <div class="avatar">
+                        <img src="media/images/fotojoey.png" alt="" class="avatar">
+                    </div>
                     <h3>Joey</h3>
                     <p>Concept</p>
                 </div>
