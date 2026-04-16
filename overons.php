@@ -110,7 +110,7 @@
 
                 <div class="team-card">
                     <div class="avatar">
-
+                        <img src="media/images/ErenAboutus.png" alt="" class="avatar">
                     </div>
 
                     <h3>Eren</h3>
@@ -126,7 +126,9 @@
                 </div>
 
                 <div class="team-card">
-                    <div class="avatar"></div>
+                    <div class="avatar">
+                        <img src="media/images/Efefotoo.JPG" alt="" class="avatar">
+                    </div>
                     <h3>Efe</h3>
                     <p>Research</p>
                 </div>
