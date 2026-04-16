@@ -110,7 +110,7 @@
 
                 <div class="team-card">
                     <div class="avatar">
-
+                        <img src="media/images/ErenAboutus.png" alt="" class="avatar">
                     </div>
 
                     <h3>Eren</h3>
