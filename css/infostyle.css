@@ -52,7 +52,7 @@ header {
 }
 
 .product-info p {
-    line-height: 1.75;
+
     color: #666;
     max-width: 360px;
     margin-bottom: 36px;
@@ -224,7 +224,13 @@ footer h1 {
     color: #b8b9bb;
 }
 
-footer a, p {
+footer a {
+    font-size: 0.8rem;
+    color: #b8b9bb;
+}
+
+
+footer p {
     font-size: 0.8rem;
     color: #b8b9bb;
 }

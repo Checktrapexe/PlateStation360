@@ -1,9 +1,9 @@
 <section>
     <div class="bigFooter">
         <h1>PlateStation360.nl</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras malesuada, lacus ac semper tincidunt, justo est
-            placerat ante, sit amet ultricies velit arcu eu urna. Proin ornare sed dui sed placerat.</p>
-        <a href="">Lees meer</a>
+        <p>De PlateStation360 is een hulpmiddel dat wij hebben ontwikkeld om eten toegankelijker en zelfstandiger te
+            maken voor mensen met een motorische beperking.</p>
+        <a href="./overons.php">Lees meer</a>
     </div>
 
     <div>

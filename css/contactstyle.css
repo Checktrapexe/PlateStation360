@@ -198,7 +198,13 @@ footer h1 {
     color: #b8b9bb;
 }
 
-footer a, p {
+footer a {
+    font-size: 0.8rem;
+    color: #b8b9bb;
+}
+
+
+footer p {
     font-size: 0.8rem;
     color: #b8b9bb;
 }

@@ -129,7 +129,12 @@ footer h1 {
     color: #b8b9bb;
 }
 
-footer a, p {
+footer a {
+    font-size: 0.8rem;
+    color: #b8b9bb;
+}
+
+footer p {
     font-size: 0.8rem;
     color: #b8b9bb;
 }
@@ -382,4 +387,8 @@ main {
 
 footer {
     animation: fadeIn 0.8s ease-in forwards;
+}
+
+p {
+    font-size: 1rem;
 }
