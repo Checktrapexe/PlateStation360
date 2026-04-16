@@ -126,7 +126,9 @@
                 </div>
 
                 <div class="team-card">
-                    <div class="avatar"></div>
+                    <div class="avatar">
+                        <img src="media/images/Efefotoo.JPG" alt="" class="avatar">
+                    </div>
                     <h3>Efe</h3>
                     <p>Research</p>
                 </div>
