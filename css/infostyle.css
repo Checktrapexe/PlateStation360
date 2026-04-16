@@ -72,21 +72,32 @@ header {
     cursor: pointer;
     border: 2px solid #f06449;
     text-decoration: none;
+    transition: all 0.25s ease;
 }
 
 .btn-primary {
     background: #f06449;
     color: #ffffff;
+    transition: all 0.25s ease;
 }
 
 .btn-secondary {
     border: 2px solid #f06449;
     color: #f06449;
+    transition: all 0.25s ease;
 }
 
 .btn-primary:hover {
     background: #3a3a4a;
     border: 2px solid #3a3a4a;
+    transition: all 0.25s ease;
+}
+
+.btn-secondary:hover {
+    border: 2px solid #3a3a4a;
+    color: #ffffff;
+    background: #3a3a4a;
+    transition: all 0.25s ease;
 }
 
 .product-image-wrap {
