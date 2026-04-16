@@ -53,7 +53,7 @@ header {
 
 .product-info p {
 
-    color: #666;
+    color: rgb(0, 0, 0);
     max-width: 360px;
     margin-bottom: 36px;
 }
