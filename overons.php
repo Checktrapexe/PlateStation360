@@ -31,8 +31,8 @@
                 </p>
 
                 <div class="hero-buttons">
-                    <a href="#" class="btn btn-primary">Meer info</a>
-                    <a href="#" class="btn btn-secondary">Contact</a>
+                    <a href="info.php" class="btn btn-primary">Over PlateStation</a>
+                    <a href="contact.php" class="btn btn-secondary">Contact</a>
                 </div>
             </div>
 
@@ -85,8 +85,7 @@
                 </p>
 
                 <div class="team-buttons">
-                    <a href="#" class="btn btn-light">Lees meer</a>
-                    <a href="#" class="btn btn-outline-light">Contact</a>
+                    <a href="contact.php" class="btn btn-outline-light">Contact</a>
                 </div>
             </div>
 

@@ -30,7 +30,7 @@
         </p>
         <div class="buttons">
             <a href="info.php" class="btn btn-primary">Meer Info</a>
-            <a href="#" class="btn btn-secondary">Bekijk het Concept</a>
+            <a href="overons.php" class="btn btn-secondary">Het Team</a>
         </div>
     </div>
     <div>
@@ -79,7 +79,7 @@
                 </p>
 
                 <div class="buttons">
-                    <a href="#" class="secondary">Bekijk het Prototype</a>
+                    <a href="info.php" class="secondary">Bekijk het Prototype</a>
                     <a href="contact.php" class="tertiary">Contact</a>
                 </div>
             </div>

@@ -35,8 +35,8 @@
             </p>
 
             <div class="btn-group">
-                <a href="#" class="btn btn-primary">Meer Info</a>
-                <a href="#" class="btn btn-secondary">Contact</a>
+                <a href="overons.php" class="btn btn-primary">Info Over Ons</a>
+                <a href="contact.php" class="btn btn-secondary">Contact</a>
             </div>
         </div>
 
