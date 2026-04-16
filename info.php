@@ -25,8 +25,13 @@
         <div class="product-info">
             <h1>De Platestation 360</h1>
             <p>
-                Informatie over het product. Hier staat een korte beschrijving van wat het product doet
-                en waarom het waardevol is voor de gebruiker.
+                De PlateStation360 is een hulpmiddel dat wij hebben ontwikkeld om eten toegankelijker en zelfstandiger
+                te
+                maken voor mensen met een motorische beperking. Door simpelweg op een knop te drukken, draait het
+                apparaat
+                langzaam naar links of recht afhankelijk van welke je klikt waardoor het bord geleidelijk roteert. Zo
+                kan de
+                gebruiker zonder moeite verschillende delen van de maaltijd bereiken.
             </p>
 
             <div class="btn-group">
@@ -44,42 +49,10 @@
     <!-- USAGE -->
     <section class="usage-section">
 
-        <h2>Usage</h2>
+        <h2>Video demonstratie</h2>
 
         <div class="steps-grid">
 
-            <div class="step">
-                <div class="step-img">
-                    <img src="media/images/placeholderFoto.png" alt="">
-                </div>
-                <span class="step-label">Stap 1</span>
-                <h3 class="step-title">Uitleg stap één</h3>
-                <p class="step-text">
-                    Word op de knop geklikt. Hier staat een korte toelichting op wat de gebruiker doet in deze stap.
-                </p>
-            </div>
-
-            <div class="step">
-                <div class="step-img">
-                    <img src="media/images/placeholderFoto.png" alt="">
-                </div>
-                <span class="step-label">Stap 2</span>
-                <h3 class="step-title">Uitleg stap twee</h3>
-                <p class="step-text">
-                    Product zelf in werking. Beschrijving van het proces terwijl het product actief gebruikt wordt.
-                </p>
-            </div>
-
-            <div class="step">
-                <div class="step-img">
-                    <img src="media/images/placeholderFoto.png" alt="">
-                </div>
-                <span class="step-label">Stap 3</span>
-                <h3 class="step-title">Uitleg stap drie</h3>
-                <p class="step-text">
-                    Resultaat. Hier zie je het eindresultaat na het doorlopen van alle stappen.
-                </p>
-            </div>
 
         </div>
 

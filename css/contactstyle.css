@@ -21,27 +21,40 @@
 }
 
 .contact-intro {
-    color: #666;
     margin-bottom: 32px;
     line-height: 1.6;
+    font-size: 1rem;
+    color: black;
+
 }
 
 .contact-form {
     display: flex;
     flex-direction: column;
     gap: 16px;
+
 }
 
 .form-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 16px;
-}
 
+}
 
 textarea {
     max-width: 100%;
     max-height: 200px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 14px 16px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 2px solid #d0d0d0;
 }
 
 .contact-form button {
